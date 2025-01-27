@@ -7,6 +7,11 @@
             string FirstName;
             Console.Write("Enter first name: ");
             FirstName = Console.ReadLine();
+            Console.Write("Enter last name");
+            LastName = Console.ReadLine();
+            Console.Write("Enter your age");
+            age = Console.ReadLine();
+            Console.Write($"Hello (FirstName)(LastName) you are (age) years old");
             // add two more variables for the users last name and their age
             // take these inputs into the program
             // use the test data Bob, Smith, 14
